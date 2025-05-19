@@ -18,7 +18,7 @@ This repository contains SQL solutions to the Cowrywise DataAnalytics-Assessment
 
 ## Entity Relationship Diagram (ERD)
 
-![ERD Diagram](assets/erd-diagram.png)
+![ERD Diagram](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/ERD%20Diagram.png)
 
 
 
