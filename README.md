@@ -10,8 +10,8 @@ This repository contains SQL solutions to a series of operational and marketing 
 
 1. [Transaction Frequency Classification](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q1.sql)
 2. [Inactivity Flag for Savings and Investments](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q2.sql)
-3. [CLV Estimation Based on Tenure and Transactions]()
-4. [SQL Techniques Used](#4-sql-techniques-used)
+3. [CLV Estimation Based on Tenure and Transactions](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q3.sql)
+4. [SQL Techniques Used]()
 5. [Challenges and Resolutions](#5-challenges-and-resolutions)
 
 ---
