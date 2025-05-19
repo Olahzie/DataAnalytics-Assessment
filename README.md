@@ -2,7 +2,7 @@
 
 # SQL Query Solutions:
 
-This repository contains SQL solutions to a series of operational and marketing data requests, focusing on customer activity, account inactivity, transaction behavior, and customer lifetime value (CLV) estimation. Each query is written for a MySQL environment and emphasizes clarity, performance, and maintainability.
+This repository contains SQL solutions to the Cowrywise DataAnalytics-Assessment, focusing on customer activity, account inactivity, transaction behavior, and customer lifetime value (CLV) estimation. Each query is written from  MySQL environment.
 
 ---
 
@@ -11,8 +11,7 @@ This repository contains SQL solutions to a series of operational and marketing 
 1. [Transaction Frequency Classification](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q1.sql)
 2. [Inactivity Flag for Savings and Investments](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q2.sql)
 3. [CLV Estimation Based on Tenure and Transactions](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q3.sql)
-4. [SQL Techniques Used]()
-5. [Challenges and Resolutions](#5-challenges-and-resolutions)
+4. [SQL Techniques Used](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q4.sql)
 
 ---
 
@@ -101,3 +100,7 @@ Edit
 - **Challenge:** Large queries were difficult to manage or debug.
 - **Resolution:** Broke logic into CTEs, applied inline comments, and used clear aliasing.
 
+### d. Understanding the Business Context
+- **Challenge:** One of the initial hurdles was interpreting what “inactivity” and “customer lifetime value” truly meant from a business perspective. For example:
+Should inactivity be calculated from the last known transaction or relative to today's date?.
+- **Resolution:** To align with general industry standards Inactivity was defined as days since the most recent successful inflow transaction, measured from the current date (CURDATE()), which is commonly used in churn detection..
