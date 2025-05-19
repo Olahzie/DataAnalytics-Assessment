@@ -12,8 +12,15 @@ This repository contains SQL solutions to the Cowrywise DataAnalytics-Assessment
 2. [Inactivity Flag for Savings and Investments](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q2.sql)
 3. [CLV Estimation Based on Tenure and Transactions](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q3.sql)
 4. [SQL Techniques Used](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q4.sql)
+5. Challenges and Resolution
 
 ---
+
+## Entity Relationship Diagram (ERD)
+
+![ERD Diagram](assets/erd-diagram.png)
+
+
 
 ## 1. Transaction Frequency Classification
 
