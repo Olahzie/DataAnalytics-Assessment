@@ -1,6 +1,6 @@
 # DataAnalytics-Assessment
 
-# SQL Query Solutions: Operational & Marketing Analytics
+# SQL Query Solutions:
 
 This repository contains SQL solutions to a series of operational and marketing data requests, focusing on customer activity, account inactivity, transaction behavior, and customer lifetime value (CLV) estimation. Each query is written for a MySQL environment and emphasizes clarity, performance, and maintainability.
 
@@ -8,8 +8,8 @@ This repository contains SQL solutions to a series of operational and marketing 
 
 ## Table of Contents
 
-1. [Transaction Frequency Classification]()
-2. [Inactivity Flag for Savings and Investments](#2-inactivity-flag-for-savings-and-investments)
+1. [Transaction Frequency Classification](https://github.com/Olahzie/DataAnalytics-Assessment/blob/main/Assessment_Q1.sql)
+2. [Inactivity Flag for Savings and Investments]()
 3. [CLV Estimation Based on Tenure and Transactions](#3-clv-estimation-based-on-tenure-and-transactions)
 4. [SQL Techniques Used](#4-sql-techniques-used)
 5. [Challenges and Resolutions](#5-challenges-and-resolutions)
