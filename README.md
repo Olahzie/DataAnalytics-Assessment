@@ -99,8 +99,3 @@ Edit
 ### d. Code Readability and Maintainability
 - **Challenge:** Large queries were difficult to manage or debug.
 - **Resolution:** Broke logic into CTEs, applied inline comments, and used clear aliasing.
-
-### d. Understanding the Business Context
-- **Challenge:** One of the initial hurdles was interpreting what “inactivity” and “customer lifetime value” truly meant from a business perspective. For example:
-Should inactivity be calculated from the last known transaction or relative to today's date?.
-- **Resolution:** To align with general industry standards Inactivity was defined as days since the most recent successful inflow transaction, measured from the current date (CURDATE()), which is commonly used in churn detection..
